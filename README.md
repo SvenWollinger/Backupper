@@ -1,8 +1,8 @@
 # Backupper
 Simple backup script
 
-To use check out the Example.bat file, simple copy it and change your values as needed.
+To use you can download the [Creator.bat](https://github.com/SvenWollinger/Backupper/blob/master/Creator.bat), which will do everything for you.
 
-You can select individual folders to be backed up, for that follow the MultiFileExample.bat file.
+If you want to look further into how it works we have two example .bat files on this repository.
 
 Backupper requires 7zip to work properly, the 7zip path needs to be set directly in the Backupper.bat file.
