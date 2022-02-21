@@ -68,6 +68,7 @@ goto :eof
 	echo Subfolders:
 	call :get_sub_list_length
 	for /L %%i in (0,1,%length%) do echo - !sub_list[%%i]!
+	echo Destination folder: %dest%
 	echo.
 	echo Is this correct?
 	set /p input=(y/n): 
