@@ -24,6 +24,7 @@ goto :eof
 	echo.
 
 	echo Enter the base folder path. You will then select one or multiple subfolders.
+	echo Please make sure that there is a \ at the end of the folder!
 	set /p basefolder=Basefolder: 
 	echo.
 
@@ -33,6 +34,7 @@ goto :eof
 	echo.
 
 	echo Enter all subfolders now.
+	echo Please make sure that there is a \ at the end of the folder!
 	FOR /L %%G IN (0, 1, %real_amount%) DO (
 		call :set_list %%G
 	)
